@@ -1,0 +1,39 @@
+body {
+    background-image: url(/1-nature-photography-spring-season-mumtazshamsee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+  }
+  
+  .show__btn {
+    padding: 10px;
+    color: #ffffff;
+    font-size: 24px;
+    background-color: rgb(29, 27, 27);
+    border-radius: 10px;
+    border: none;
+    display: block;
+  }
+  
+  #show__btn:hover {
+    background-color: rgb(81, 77, 77);
+  }
+  .hidden {
+    display: none;
+  }
+  .show-item {
+    flex-direction: column;
+    width: 500px;
+    background-color: rgba(245, 245, 220, 0.65);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .nature-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
